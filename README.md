@@ -1,1 +1,22 @@
 # my-first-project
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>My First Webpage</title>
+            </head>
+            <body>
+
+                <h1>Welcome to HTML</h1>
+
+                    <p>My name is Sk Afreen, from Chalapathi Institute of Technology, and I am doing my Web Development internship.</p>
+
+                        <img src="https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png" alt="Git Logo" width="150">
+
+                            <p>This is a link to Google</p>
+                                <a href="https://www.google.com" target="_blank">Go to google</a>
+
+                                </body>
+                                </html>
+                                
