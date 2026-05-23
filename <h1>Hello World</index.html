@@ -17,6 +17,21 @@
                                                                             <button onclick="verifyAadhaar()">OK</button>
                                                                                 </div>
 
+ HEAD
+                                                                                    <script>
+                                                                                            function verifyAadhaar() {
+                                                                                                        const num = document.getElementById('aadhaarNum').value;
+                                                                                                                    if(num.length === 12) {
+                                                                                                                                    // Navigates to the details page with the number as a query parameter
+                                                                                                                                                    window.location.href = `details.html?aadhaar=${num}`;
+                                                                                                                                                                } else {
+                                                                                                                                                                                alert("Please enter a valid 12-digit number.");
+                                                                                                                                                                                            }
+                                                                                                                                                                                                    }
+                                                                                                                                                                                                        </script>
+                                                                                                                                                                                                        </body>
+                                                                                                                                                                                                        </html>                                      
+
                                                                                     <script>
                                                                                             function verifyAadhaar() {
                                                                                                         const num = document.getElementById('aadhaarNum').value;
@@ -31,3 +46,4 @@
                                                                                                                                                                                                         </body>
                                                                                                                                                                                                         </html>
                                                                                                                                                                                                         
+>>>>>>> 956171db512eecf7ecc58a879b89ccd88f0889e5
